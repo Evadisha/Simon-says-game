@@ -1,0 +1,51 @@
+<!--The structure for the simon says game.
+The title tells what needs to be done to start the game or the level on which the player is.
+The player need to follow the order, the number of presses increases with the levels.-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--Header of the HTML. It containes the title or page name, favicon link, css sheet link also the link to the font used.-->
+<head>
+  <meta charset="utf-8">
+  <title>Simon Says</title>
+  <link rel="shortcut icon" href="first.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<!--Body of the page. It contains the title which can be used to represent level the player is on or the instruction to start the game.
+The button are put in a table, so there is two rows and two columns.
+Also the link to javascript with the cdn to jQuery.-->
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js" type="text/javascript"></script>
+</body>
+<footer>
+  <h6>Thanks for the help!</h6>
+</footer>
+</html>

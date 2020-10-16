@@ -1,0 +1,62 @@
+/*The main body style. */
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+/*The style used by title. It is what interacts with the player.*/
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+/*The main container for the four color buttons*/
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+/*The button style i.e. how the button is displayed.*/
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+/*It is added when the player loses the game.*/
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/*Red button*/
+.red {
+  background-color: red;
+}
+
+/*Green button*/
+.green {
+  background-color: green;
+}
+
+/*Blue button*/
+.blue {
+  background-color: blue;
+}
+
+/*Yellow button*/
+.yellow {
+  background-color: yellow;
+}
+
+/*It is added when the button is pressed by the player.*/
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
